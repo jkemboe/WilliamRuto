@@ -1,0 +1,36 @@
+.join-container {
+    width: 85%;
+    margin: 0 auto;
+    padding: 1em;
+    background: none;
+    border-radius: .3em;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.11),0 6px 20px 0 rgba(0,0,0,0.11);
+ }
+.join-mid {
+    padding: 1em;
+    text-align: center;
+}
+.join-mid h2 {
+    color: #fff;
+    font-size: 2em;
+    margin: .5em;
+}
+.join-mid input {
+    font-size: 1em;
+
+    padding: 1em;
+    margin: 1em;
+    width: 20%;
+}
+.submit-btn {
+    background: red;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3),0 6px 20px 0 rgba(0,0,0,0.5);
+    transition: .3s;
+}
+.submit-btn:hover {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6),0 6px 20px 0 rgba(0,0,0,0.8);
+}
+

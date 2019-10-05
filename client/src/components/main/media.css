@@ -1,0 +1,46 @@
+.mediaContainer {
+    background: hsl(216, 100%, 22%);
+    color: #fff;
+}
+.mediaContainer h1 {
+    padding-top: .5em;
+    text-align: center;
+    font-size: 4em;
+}
+.mediaLinks {
+    display: flex;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+    font-size: 1.2em;
+    margin: 2em 0em;
+    font-weight: bold;
+}
+.mediaLinks a {
+    transition: .3s;
+    color: #fff;
+}
+.mediaLinks a:hover {
+    opacity: .7;
+}
+.mediaImgs {
+    display: flex;
+    justify-content: center;
+}
+.mediaImgs img {
+    margin: 0em 2em;
+}
+.sponsor {
+    text-align: center;
+    border: 1px solid white;
+    padding: 1em;
+    width: 30em;
+    border-radius: 5px;
+    margin: 5em auto;
+    margin-bottom: 1em;
+    letter-spacing: 5px;
+}
+.footer {
+    letter-spacing: 5px;
+    text-align: center;
+    padding-bottom: 2em;
+}

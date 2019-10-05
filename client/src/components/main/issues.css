@@ -1,0 +1,77 @@
+.issuesContainer  {
+    text-align: left;
+    /* display: flex; */
+     /* padding-bottom: 1em; */
+}
+.issueMainBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.issuesContainer p {
+    background: rgb(103, 150, 165);
+    color: #fff;
+    padding: .3em 2em;
+    padding-bottom: 1em;
+    letter-spacing: .2em;
+    width: 5em;
+    border-top-left-radius: .2em;
+    border-top-right-radius: .2em;
+    margin: 0 auto;
+    font-size: 1.2em;
+}
+.platfromContainer {
+    background:hsl(216, 100%, 22%);
+    padding-bottom: 4em;
+}
+.platfromContainer p {
+    width: 100%;
+    background:hsl(216, 100%, 22%);
+    padding-top: 2em;
+    font-size: 1.8em;
+    letter-spacing: .2em;
+    text-decoration: underline;
+    text-align: center;
+    margin-left: -2em;
+}
+.issuesSubContainer {
+    border: none;
+    border-radius: 5px;
+    width: 25em;
+    margin-top: 2em;
+    height: auto;
+    background: none;
+    /* box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5),0 3px 10px 0 rgba(0,0,0,0.5); */
+}
+.issuesBox {
+    cursor: pointer;
+    text-align: center;
+}
+.issuesBox img {
+    margin-top: .5em;
+    padding: 1em;
+}
+.issuesBox h3 {
+    padding: 1em;
+    font-size: 1.6em;
+    color: hsl(216, 100%, 22%);
+    letter-spacing: 2px;
+}
+.issueMain {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.8),0 3px 10px 0 rgba(0,0,0,0.8);
+    margin-top: 1em;
+    padding: 1em .5em;
+}
+.issueMain span {
+    display: block;
+    color: #fff;
+    font-size: 2em;
+    width: 10em;
+    font-weight: bold;
+    margin-top: .5em;
+}
+.issueMain a {
+    font-size: 1.6em;
+
+}

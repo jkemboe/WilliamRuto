@@ -1,0 +1,18 @@
+.story-container {
+    background: #fff;
+    margin-top: 5em;
+    padding: 5em;
+}
+.story-p {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 1em;
+    font-weight: bold;
+    color: midnightblue;
+}
+.story-p h1 {
+    margin: .5em;
+}
+.story-p p {
+    font-size: 1em;
+}

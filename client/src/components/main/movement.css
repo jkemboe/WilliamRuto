@@ -1,0 +1,45 @@
+.joinHeader {
+    text-align: center;
+    padding: 2em 0em;
+}
+.joinHeader h1 {
+    font-size: 5em;
+    color: hsl(216, 100%, 22%);
+}
+.joinForm {
+    text-align: center;
+}
+.joinForm input {
+    border: 10px solid hsl(216, 100%, 22%);
+    padding: .5em;
+    margin: 1em;
+    font-size: 2em;
+}
+.joinForm button {
+    display: block;
+    margin: 0 auto;
+    padding: .5em 2em;
+    font-size: 2em;
+    border: none;
+    background:rgb(214, 59, 59);
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: .3s;
+    outline: none;
+}
+.joinForm button:hover {
+    background: red;
+}
+.joinImg {
+    height: 44em;
+    overflow: hidden;
+}
+.joinImg img {
+    display: block;
+    margin-top: -10em;
+    width: 80%;
+    margin-left: 6em;
+}

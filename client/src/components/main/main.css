@@ -1,0 +1,96 @@
+ .main-body {
+     width: 100vw;
+ }
+
+.header {
+    background: none;
+    /* height: 40em; */
+    height: 100vh;
+    /* background: black; */
+    overflow: hidden;
+    color: black;
+    width: 100vw;
+ }
+ 
+.header img {
+    position: relative;
+    width: 50%;
+    left: 52.5%;
+    top: 1em;
+    height: auto;
+    z-index: -1;
+    /* margin-top: -.em; */
+}
+.header-nav {
+    display: flex;
+ 
+}
+.header-nav h1 {
+    text-align: center;
+    margin-top: 1em;
+    color: black;
+     font-size: 3em;
+    /* font-family: 'Bree Serif', serif; */
+}   
+.header-container {
+    flex: 1;
+}
+.header-container h1 {
+  letter-spacing: 1px;
+}
+.donate-links{ 
+    position: absolute;
+    top: 10vw;
+    left: 1em;
+    font-size: 3vw;
+    background:red;
+    color: #fff;
+    font-weight: bold;
+    padding: .3em 1em;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 5px;
+    transition: .3s;
+    letter-spacing: 2px;
+}
+.donate-links:hover {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5),0 6px 20px 0 rgba(0,0,0,0.5);
+ }
+ 
+ .donation-container {
+     display: flex;
+     position: absolute;
+     width: 60%;
+     bottom: 2em;
+     left: 2em;
+     z-index: 1;
+     display: none;
+     background:red;
+     color: #fff;
+     font-weight: bold;
+     letter-spacing: 1px;
+     cursor: pointer;
+     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5),0 3px 10px 0 rgba(0,0,0,0.5);
+    /* display: block; */
+    animation: .3s AnimateContainer;
+ }
+ @keyframes AnimateContainer {
+     from {
+        left: 0;
+     }
+     to {
+        left: 2em;
+     }
+ }
+ .span-box {
+     text-align: center;
+    padding: 2.3em .1em;
+    font-size: 1em;
+    width: 8em;
+    margin: 0em .2em;
+    background: red;
+ }
+ .span-box:hover {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5),0 3px 10px 0 rgba(0,0,0,0.5);
+
+ }
