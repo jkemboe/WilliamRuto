@@ -10,9 +10,9 @@ import './issues.css';
 import './movement.css';
 import './media.css';
 
-import IndexImg from './img/WILLY.jpg';
+import IndexImg from './img/WILLyy.jpg';
 import Students from './img/students.jpg';
-import Willy from './img/WILLY1.jpg';
+import Willy from './img/willyyy.jpg';
 
 import NavBar from '../navigation/nav';
 import Join from '../join/join';

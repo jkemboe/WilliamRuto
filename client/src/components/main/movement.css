@@ -39,7 +39,7 @@
 }
 .joinImg img {
     display: block;
-    margin-top: -10em;
+    /* margin-top: -10em; */
     width: 80%;
     margin-left: 6em;
 }

@@ -16,8 +16,8 @@
     position: relative;
     width: 50%;
     left: 52.5%;
-    top: 1em;
-    height: auto;
+    /* top: 1em; */
+    height: 101vh;
     z-index: -1;
     /* margin-top: -.em; */
 }
