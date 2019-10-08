@@ -14,9 +14,9 @@
  
 .header img {
     position: relative;
-    width: 50%;
+    width: 50vw;
     left: 52.5%;
-    /* top: 1em; */
+    top: 4em;
     height: 101vh;
     z-index: -1;
     /* margin-top: -.em; */

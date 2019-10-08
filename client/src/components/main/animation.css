@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Anton|Roboto');
 .position-animation {
     position: absolute;
-    top: 35%;
+    top: 25vh;
     left: 2em;
     letter-spacing: 5px;
 
@@ -14,13 +14,6 @@
     font-weight: bold;
 }
 
-.word span {
-	cursor: pointer;
-	/* display: inline-block; */
-	/* font-size: 100px; */
-	user-select: none;
-    /* line-height: .8; */
-}
 .word .span-quote {
     /* display: block; */
     font-size: 1.2vw;
@@ -28,11 +21,6 @@
     /* padding: 1em 0em; */
 }
 
-/* .word .span-quote::before {
-    content: '"';
-    font-weight: bold;
-    color: red;
-} */
  
 $avatar-size: 32px;
 $body-background: #333641;

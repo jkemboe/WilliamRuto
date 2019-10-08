@@ -9,6 +9,7 @@ import './donate.css';
 import './issues.css';
 import './movement.css';
 import './media.css';
+import './touch.css';
 
 import IndexImg from './img/WILLyy.jpg';
 import Students from './img/students.jpg';
@@ -29,9 +30,9 @@ function Main(){
              {/* <div className="header-container">
                   <h1>William Ruto 2022</h1>
              </div> */}
-             <div className="donate-links">
-             {/* <span onClick={showDonations}>DONATE</span> */}
-            </div>
+             {/* <div className="donate-links">
+             <span onClick={showDonations}>DONATE</span>
+            </div> */}
             <NavBar/>
            
          </div>
@@ -43,6 +44,7 @@ function Main(){
      <div className="donation">
         <Donation/>
      </div>
+     <StayInTouch/>
      <VisionPage/>
      <Events/>
      {/* <DonateContainer/> */}
@@ -88,9 +90,27 @@ function VisionPage(){
         <div className="vision-page">
             <h1>Vision</h1>
             <p>
-            The value of a conducive environment for effective learning is unquestionable. School infrastructure is a big part of the education experience and the eventual outcome of the education process. We must give our children the best for them to become the best. Good infrastructure provides a sense of safety and stability allowing children to concentrate on their studies.
-            </p>
-            <Link to="#">This is whatLinkWilliam Samoei Ruto Believes.</Link>
+                My dream is to turn Kenya into a just modern and prosperous nation. United in pursuit of happiness and where every person has an equal and fair opportunity to be their best.
+             </p>
+            <Link to="#">This is what William Samoei Ruto Believes</Link>
+        </div>
+    )
+}
+
+function StayInTouch(){
+    return (
+        <div className="touch-page">
+            <div>
+                 <h3>STAY IN TOUCH</h3>
+                 <span>Get the latest from the team straight to your inbox.</span>
+            </div>
+            <div className="contact-inpt">
+                 <input type="email" placeholder="Email"/>
+                 <input type="text" placeholder="County"/>
+            </div>
+            <div className="contact-btn">
+                <button>SIGN UP</button>
+            </div>
         </div>
     )
 }
