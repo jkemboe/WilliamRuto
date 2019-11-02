@@ -48,7 +48,7 @@ function Main(){
      <StayInTouch/>
      <VisionPage/>
      <EventsContainer/>
-     {/* <DonateContainer/> */}
+     <DonateContainer/>
      <Issues/>
      <JoinMovement/>
      <SocialMedia/>
