@@ -16,6 +16,13 @@ import IndexImg from './img/WILLyy.jpg';
 import Students from './img/students.jpg';
 import Willy from './img/willyyy.jpg';
 
+import Health from './img/hospital.jpg';
+import Infrastructure from './img/me.webp';
+import House from './img/house.jpg';
+import Job from './img/job.png';
+import Green from './img/green.jpg';
+import City from './img/city.jpg';
+
 import NavBar from '../navigation/nav';
 import Join from '../join/join';
 import MainStory from '../story/story';
@@ -48,7 +55,7 @@ function Main(){
      <StayInTouch/>
      <VisionPage/>
      <EventsContainer/>
-     <DonateContainer/>
+     <DonateContainer/>     
      <Issues/>
      <JoinMovement/>
      <SocialMedia/>
@@ -202,6 +209,7 @@ function DonateContainer(){
 function Issues(){
     const [header] = useState(['HEALTH','INFRASTRUCTURE','HOUSING','JOB CREATION','ENERGY','MANUFACTURING']);
     const [issues] = useState(['MEDICARE FOR ALL','BETTER INFRASTURCTURE','HOUSES FOR LOWER CLASS','YOUTH EMPLOYMENT','GREEN ENERGY, FUTURE OF KENYA','EMPLOYMENT DRIVE 2030'])
+    const [img] = useState([Health,Infrastructure,House,Job,Green,City])
     return (
         <div className="issuesContainer">
             <p>ISSUES</p>
@@ -213,7 +221,7 @@ function Issues(){
                             <div className="issueMain">
                             <div className="issuesSubContainer">
                                 <div className="issuesBox">
-                                    <img src={'d'} />
+                                    <img src={img[i]} />
                                     <h3>{val}</h3>
                                 </div>
                             </div>

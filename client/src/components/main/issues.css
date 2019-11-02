@@ -19,17 +19,17 @@
     border-top-left-radius: .2em;
     border-top-right-radius: .2em;
     margin: 0 auto;
-    font-size: 1.2em;
+    font-size: 1.2rem;
 }
 .platfromContainer {
     background:hsl(216, 100%, 22%);
-    padding-bottom: 4em;
+    padding-bottom: 16px;
 }
 .platfromContainer p {
     width: 100%;
     background:hsl(216, 100%, 22%);
     padding-top: 2em;
-    font-size: 1.8em;
+    font-size: 1.8rem;
     letter-spacing: .2em;
     text-decoration: underline;
     text-align: center;
@@ -39,7 +39,7 @@
     border: none;
     border-radius: 5px;
     width: 25em;
-    margin-top: 2em;
+    margin-top: 24px;
     height: auto;
     background: none;
     /* box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5),0 3px 10px 0 rgba(0,0,0,0.5); */
@@ -49,19 +49,19 @@
     text-align: center;
 }
 .issuesBox img {
-    margin-top: .5em;
-    padding: 1em;
+    width: 100%;
+    border-radius: 8px;
+    height: 420px;
 }
 .issuesBox h3 {
-    padding: 1em;
-    font-size: 1.6em;
+    font-size: 1.6rem;
     color: hsl(216, 100%, 22%);
     letter-spacing: 2px;
 }
 .issueMain {
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.8),0 3px 10px 0 rgba(0,0,0,0.8);
-    margin-top: 1em;
-    padding: 1em .5em;
+    margin-top: 0;
+    padding: 0 10px;
 }
 .issueMain span {
     display: block;
@@ -69,7 +69,6 @@
     font-size: 2em;
     width: 10em;
     font-weight: bold;
-    margin-top: .5em;
 }
 .issueMain a {
     font-size: 1.6em;

@@ -15,9 +15,10 @@
 .events-box {
     display: block;
     border: none;
-    background: red;
+    background: #fff;
+
     text-align: center;
-    color: #fff;
+    color: #1b1b1b;
     font-weight: bold;
     padding: 16px;
     font-size: 2rem;
