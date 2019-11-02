@@ -1,25 +1,24 @@
  .main-body {
      width: 100vw;
+     height: 100vh;
  }
 
 .header {
     background: none;
     /* height: 40em; */
-    height: 100vh;
     /* background: black; */
     overflow: hidden;
     color: black;
-    width: 100vw;
+    width: 100%;
  }
  
 .header img {
     position: relative;
-    width: 50vw;
+    width: 50%;
     left: 52.5%;
-    top: 4em;
-    height: 101vh;
+    top: 0;
+    height: auto;
     z-index: -1;
-    /* margin-top: -.em; */
 }
 .header-nav {
     display: flex;
@@ -29,7 +28,7 @@
     text-align: center;
     margin-top: 1em;
     color: black;
-     font-size: 3em;
+     font-size: 3rem;
     /* font-family: 'Bree Serif', serif; */
 }   
 .header-container {
@@ -42,7 +41,7 @@
     position: absolute;
     top: 10vw;
     left: 1em;
-    font-size: 3vw;
+    font-size: 3rem;
     background:red;
     color: #fff;
     font-weight: bold;
@@ -85,7 +84,7 @@
  .span-box {
      text-align: center;
     padding: 2.3em .1em;
-    font-size: 1em;
+    font-size: 1rem;
     width: 8em;
     margin: 0em .2em;
     background: red;

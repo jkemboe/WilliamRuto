@@ -1,30 +1,37 @@
 .touch-page {
     display: flex;
+    flex-wrap: wrap;
     background: repeating-linear-gradient(rgb(206, 19, 19),red,rgb(168, 30, 30));
     padding: 3em 2em;
     color: #fff;
     justify-content: space-evenly;
-    font-size: 1.2em;
+    margin: auto;
+    font-size: 1.2rem;
 }
-.contact-inpt {
-    display: flex;
-}
- 
+
 .contact-inpt input{
-    font-size: 1.3em;
-    padding: .5em .8em;
+    font-size: 1rem;
+    padding: 15px 13px;
+    border-radius: 3px;
     width: 20vw;
     outline: none;
     border: none;
     margin: 0em .5em;
 }
 .contact-btn button{
-    font-size: 1em;
-    padding: .5em 1em;
+    font-size: 1rem;
+     padding: 12px 18px;
     background: darkred;
+    border-radius: 5px;
     border: none;
     outline: none;
     cursor: pointer;
     font-weight: bold;
     color: lightgray;
+    height: 100%;
+    transition: .4s;
+}
+.contact-btn button:hover,
+.contact-btn button:active {
+    background: tomato;
 }

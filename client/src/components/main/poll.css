@@ -1,0 +1,38 @@
+.poll-body {
+    border: 1px solid #fff;
+    margin: 18px 0px;
+    margin-left: 12px;
+    background: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5),0 6px 20px 0 rgba(0,0,0,0.5);
+    border-radius: 8px;
+}
+.poll-question {
+    text-align: center;
+    padding: 18px 0px;
+}
+.poll-answ {
+     text-align: center;
+    padding: 12px 0px;
+}
+.poll-answ button {
+    font-size: 1rem;
+    padding: 15px 35px;
+    margin: 0px 5px;
+    cursor: pointer;
+    background: #3b5998;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+}
+.poll-res {
+    padding: 18px 0px;
+    text-align: center;
+}
+.poll-res p {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.poll-res span {
+    display: block;
+    margin: 8px 0;
+}
