@@ -192,7 +192,7 @@ function DonateContainer(){
         <div className="donationContainer">
             <p>HUMANITY FIRST</p>
             <hr/>
-            <h1>DONATE</h1>
+            <h1>VOVATE</h1>
             <div className="spanDonation">
                 <span>K 500</span>
                 <span>K 1,000</span>
@@ -200,7 +200,7 @@ function DonateContainer(){
                 <span>K 10,000</span>
             </div>
             <div className="donateBtn">
-                <button>DONATE</button>
+                <button>VOVATE</button>
             </div>
         </div>
     )

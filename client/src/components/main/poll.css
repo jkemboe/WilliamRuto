@@ -14,7 +14,11 @@
 }
 .poll-answ {
      text-align: center;
-    padding: 12px 0px;
+    padding: 24px 0px;
+     width: 70%;
+    margin: auto;
+    background: #1b1b1b;
+    border-radius: 8px;
 }
 .poll-answ button {
     font-size: 1rem;
@@ -25,6 +29,10 @@
     color: #fff;
     border: none;
     border-radius: 6px;
+    transition: .3s;
+}
+.poll-answ button:hover {
+    background: #4767ac;
 }
 .poll-res {
     padding: 18px 0px;
