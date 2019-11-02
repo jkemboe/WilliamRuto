@@ -17,22 +17,22 @@
     padding: 24px 0px;
      width: 70%;
     margin: auto;
-    background: #1b1b1b;
+    background: linear-gradient(navy,#3b5998);
     border-radius: 8px;
 }
 .poll-answ button {
-    font-size: 1rem;
-    padding: 15px 35px;
+    font-size: 1.2rem;
+    padding: 25px 35px;
     margin: 0px 5px;
     cursor: pointer;
-    background: #3b5998;
-    color: #fff;
+    background: rgb(218, 219, 228);
+    color: #1b1b1b;
     border: none;
     border-radius: 6px;
     transition: .3s;
 }
 .poll-answ button:hover {
-    background: #4767ac;
+    background: #f5f7fc;
 }
 .poll-res {
     padding: 18px 0px;
